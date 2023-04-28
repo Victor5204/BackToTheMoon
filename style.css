@@ -4,7 +4,7 @@ body {
 
   font-size: 14px;
   line-height: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #000000;
 
   background-color: #ffffff;
@@ -120,29 +120,31 @@ body {
 
 .contacts-menu .icon-mail {
   background-image: url(mail-icon.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: 0 50%;
 }
 
 .contacts-menu .icon-phone {
   background-image: url(phone-icon.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: 0 50%;
 }
 
 .about-us {
+  
   width: 300px;
   padding-left: 120px;
 }
 
 .about-us h1 {
+
   margin: 0;
   margin-bottom: 40px;
   padding: 0;
 
   font-size: 45px;
   line-height: 50px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
 }
 
@@ -259,7 +261,8 @@ body {
 
 .features-list li::after {
   content: "";
-
+  display: flex;
+  flex-direction: column;
   position: absolute;
   top: 0;
   left: 0;
@@ -298,18 +301,22 @@ body {
 }
 
 .moon-vacation {
+  display: flex;
+  flex-direction:row-reverse;
   padding-top: 80px;
   padding-bottom: 45px;
 }
 
 .moon-vacation .lead {
+  display: flex;
+  flex-direction: row-reverse;
   margin-top: 0;
   margin-bottom: 50px;
 
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .recommendations {
@@ -324,7 +331,7 @@ body {
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .recommendations-list {
@@ -403,7 +410,7 @@ body {
 
 .footer-menu {
   display: flex;
-
+  align-items: center;
   margin: 0;
   padding: 0;
 
