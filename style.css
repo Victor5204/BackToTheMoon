@@ -194,6 +194,8 @@ body {
 }
 
 .btn-yellow {
+  display: flex;
+  justify-content: center;
   background-color: #feca30;
 }
 
@@ -240,7 +242,6 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
   margin: 0;
   padding: 0;
 
@@ -297,6 +298,7 @@ body {
 }
 
 .columns-container .right-column {
+  flex-wrap: wrap;
   width: 440px;
 }
 
@@ -310,6 +312,8 @@ body {
 .moon-vacation .lead {
   display: flex;
   flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: end;
   margin-top: 0;
   margin-bottom: 50px;
 
@@ -435,6 +439,9 @@ body {
 }
 
 .footer-submenu {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   margin: 0;
   padding: 0;
 
